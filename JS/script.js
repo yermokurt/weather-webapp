@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function()
     let cityInput = document.getElementById('input-city'),
     searchBtn = document.getElementById('search-location'),
     locationBtn = document.getElementById('search-currentLocation')
-    api_key = 'fffc6d655ce00fa1a5e04bc9cd65c45c',
+    api_key = ' ',
     currentWeatherCard = document.querySelectorAll('.weather-left .card')[0],
     fiveDaysForecastCard = document.querySelector('.day-forecast'),
     aqindex = document.querySelectorAll('.highlights .card')[0],
